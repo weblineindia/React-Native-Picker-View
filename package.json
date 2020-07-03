@@ -1,0 +1,50 @@
+{
+  "name": "rn-weblineindia-picker-view",
+  "title": "React Native Pickerview",
+  "version": "1.0.0",
+  "description": "A lightweight plugin and pure JavaScript React-Native component for custom picker that provides the same UI for both Android and iOS.",
+  "main": "src/index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "rn-weblineindia-picker-view.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weblineindia/React-Native-Picker-View.git",
+    "baseUrl": "https://github.com/weblineindia/React-Native-Picker-View"
+  },
+  "keywords": [
+    "rn-weblineindia-picker-view", 
+    "react-native-pickerview", 
+    "pickerview", 
+    "picker-view", 
+    "custom",
+    "picker",
+    "select",
+    "modal",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "author": {
+    "name": "Weblineindia"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "homepage": "https://www.weblineindia.com/software-development-resources.html",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
