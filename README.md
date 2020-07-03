@@ -1,6 +1,6 @@
-# rn-weblineindia-picker-view
+# React Native Picker View
 
-A lightweight plugin and pure JavaScript React-Native component for custom picker that provides the same UI for both Android and IOS.
+A lightweight plugin and pure JavaScript ReactNative component for custom picker that provides the same UI for both Android and iOS.
 
 ## Getting started
 
@@ -21,7 +21,7 @@ A lightweight plugin and pure JavaScript React-Native component for custom picke
 
 ## Supported versions
 
-ReactNative 0.60 - 0.62.5 is supported for v1.0.0
+We have tested this component in ReactNative 0.60 - 0.62.5. You can still use it in other versions.
 
 ## Usage
 
@@ -108,7 +108,7 @@ this.props.showPicker(object, (index) => {
 
 ## Need Help? 
 
-We also provide a free, basic support for all users who want to use this ReactNative Picker View in their software project. In case you want to customize this Picker View to suit your development needs, then feel free to contact our [ReactNative developers](https://www.weblineindia.com/hire-react-native-developers.html).
+We also provide a free, basic support for all users who want to use this ReactNative Picker View component in their software project. In case you want to customize this Picker View to suit your development needs, then feel free to contact our [ReactNative developers](https://www.weblineindia.com/hire-react-native-developers.html).
 
 -----
 
