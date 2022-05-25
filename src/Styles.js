@@ -53,8 +53,7 @@ module.exports = StyleSheet.create({
     itemTxt: {
         textAlign: 'center',
         color: PrimaryDark,
-        fontWeight: '300',
-        // fontSize:10
+        fontWeight: '300'
     },
     ButtonMainView: {
         flexDirection: 'row',

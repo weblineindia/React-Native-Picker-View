@@ -21,7 +21,7 @@ A lightweight plugin and pure JavaScript ReactNative component for custom picker
 
 ## Supported versions
 
-We have tested this component in ReactNative 0.60 - 0.62.5. You can still use it in other versions.
+We have tested this component in ReactNative 0.60 - 0.67. You can still use it in other versions.
 
 ## Usage
 
@@ -31,11 +31,11 @@ We have tested this component in ReactNative 0.60 - 0.62.5. You can still use it
     let object = {
       title: 'Year',
       data: [2020, 2021, 2022, 2023, 2024, 2025],
-      defaultSelection: this.state.year
+      defaultSelection: 2020
     }
-    this.props.showPicker(object, (index) => {
+    this.props.showPicker(object, (data) => {
     // callback actions here and set state here after selecting the value
-      this.setState({ year: index })
+      console.log('data ->', data)
     })
   }
 ```

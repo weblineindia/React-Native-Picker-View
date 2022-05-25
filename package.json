@@ -1,13 +1,16 @@
 {
   "name": "rn-weblineindia-picker-view",
   "title": "React Native Pickerview",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight plugin and pure JavaScript React-Native component for custom picker that provides the same UI for both Android and iOS.",
   "main": "src/index.js",
   "files": [
     "README.md",
     "android",
     "index.js",
+    "PickerView.js",
+    "Styles.js",
+    "Globals.js",
     "ios",
     "rn-weblineindia-picker-view.podspec"
   ],
@@ -44,7 +47,7 @@
     "react-native": ">=0.60.0-rc.0 <1.0.x"
   },
   "devDependencies": {
-    "react": "^16.9.0",
-    "react-native": "^0.61.5"
+    "react": "17.0.2",
+    "react-native": "0.67.0"
   }
 }

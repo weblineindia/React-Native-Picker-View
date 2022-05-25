@@ -1,11 +1,7 @@
-/* eslint-disable class-methods-use-this */
-/* eslint-disable react/no-deprecated */
-/* eslint-disable react/prop-types */
-/* eslint-disable max-len */
 import React, { Component } from 'react';
 import { View, Text, Modal, TouchableWithoutFeedback, TouchableOpacity, FlatList } from 'react-native';
 import Styles from './Styles';
-import { Blue, Black, Separator, PrimaryDark } from './Globals';
+import { Black, Separator } from './Globals';
 
 type IProps = {
     data: Array,
@@ -65,7 +61,7 @@ export default class PickerView extends Component<IProps, IState> {
     find_dimesions(layout) {
         const { x, y, width, height } = layout;
         this.setState({ viewHeight: height }, () => {
-            console.log("viewHeight--->>", this.state.viewHeight);
+            // console.log("viewHeight--->>", this.state.viewHeight);
         });
     }
 
